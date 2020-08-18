@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,viewport-fit:cover">
+    <title>柴狗影视</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="app">
+
+        <!--头部-->
+        <header id="header">
+            <div class="header-top">
+                <h1 class="logo">
+                    <a href="javascript:">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </h1>
+
+                <button class="menu-btn"></button>
+
+                <div class="btn-group">
+                    <button class="btn btn-search">搜索</button>
+                    <button class="btn">登录</button>
+                    <button class="btn">注册</button>
+                </div>
+            </div>
+            <div class="search-form">
+                <form action="#">
+                    <input type="text" placeholder="请输入搜索内容...">
+                    <button>搜索</button>
+                </form>
+            </div>
+            <ul class="menu-list">
+                <li>
+                    <a href="javascript:">首页</a>
+                </li>
+                <li>
+                    <a href="javascript:">电影</a>
+                </li>
+                <li>
+                    <a href="javascript:">连续剧</a>
+                </li>
+                <li>
+                    <a href="javascript:">综艺</a>
+                </li>
+                <li>
+                    <a href="javascript:">动漫</a>
+                </li>
+                <li>
+                    <a href="javascript:">优惠券</a>
+                </li>
+                <li>
+                    <a href="javascript:">节目</a>
+                </li>
+                <li>
+                    <a href="javascript:">直播</a>
+                </li>
+                <li>
+                    <a href="javascript:">资讯</a>
+                </li>
+                <li>
+                    <a href="javascript:">我的家</a>
+                </li>
+                <li>
+                    <a href="javascript:">APP下载</a>
+                </li>
+                <li>
+                    <a href="javascript:">热门应用</a>
+                </li>
+            </ul>
+        </header>
+
+        <!--主体内容-->
+        <div id="main">
+            <!--导航-->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="active">
+                        <a href="javascript:">首页</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">电影</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">连续剧</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">综艺</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">动漫</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">优惠券</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">直播</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">饭团</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">资讯</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">我的家</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">APP下载</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">热门应用</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!--轮播图-->
+            <div class="swiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-item"><img src="img/1.jpg"></li>
+                    <li class="swiper-item"><img src="img/2.jpg"></li>
+                    <li class="swiper-item"><img src="img/3.jpg"></li>
+                    <li class="swiper-item"><img src="img/1.jpg"></li>
+                    <li class="swiper-item"><img src="img/2.jpg"></li>
+                </ul>
+                <div class="pagination"></div>
+            </div>
+
+            <!--选项卡-->
+            <section class="tab">
+                <header class="tab-header">
+                    <h2>热播推荐</h2>
+                    <a href="javascript:">更多&gt;</a>
+                </header>
+                <nav class="tab-nav">
+                    <a href="javascript:">全部</a>
+                    <a href="javascript:">欧美</a>
+                    <a href="javascript:">日韩</a>
+                    <a href="javascript:">大陆</a>
+                    <a href="javascript:">港台</a>
+                    <a href="javascript:">泰国</a>
+                    <span class="active-border"></span>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-loading"></div>
+                    <ul class="tab-list">
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/a.jpg">
+                                <h3>乘风破浪的姐姐</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/b.jpg">
+                                <h3>以家人之名</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/c.jpg">
+                                <h3>饥饿站台</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/d.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/b.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/c.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="tab-loading"></div>
+                </div>
+            </section>
+
+            <!--选项卡-->
+            <section class="tab">
+                <header class="tab-header">
+                    <h2>抖音爆款影视推荐</h2>
+                    <a href="javascript:">更多&gt;</a>
+                </header>
+                <nav class="tab-nav">
+                    <a href="javascript:">全部</a>
+                    <a href="javascript:">欧美</a>
+                    <a href="javascript:">日韩</a>
+                    <a href="javascript:">大陆</a>
+                    <a href="javascript:">港台</a>
+                    <a href="javascript:">泰国</a>
+                    <span class="active-border"></span>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-loading"></div>
+                    <ul class="tab-list">
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/a.jpg">
+                                <h3>乘风破浪的姐姐</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/b.jpg">
+                                <h3>以家人之名</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/c.jpg">
+                                <h3>饥饿站台</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/d.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/b.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/c.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="tab-loading"></div>
+                </div>
+
+            </section>
+
+            <!--选项卡-->
+            <section class="tab">
+                <header class="tab-header">
+                    <h2>最新电影</h2>
+                    <a href="javascript:">更多&gt;</a>
+                </header>
+                <nav class="tab-nav">
+                    <a href="javascript:">全部</a>
+                    <a href="javascript:">欧美</a>
+                    <a href="javascript:">日韩</a>
+                    <a href="javascript:">大陆</a>
+                    <a href="javascript:">港台</a>
+                    <a href="javascript:">泰国</a>
+                    <span class="active-border"></span>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-loading"></div>
+                    <ul class="tab-list">
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/a.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/b.jpg">
+                                <h3>乡村爱情的美好生活会议好日子好啊</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/c.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/d.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/b.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/c.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="tab-loading"></div>
+                </div>
+            </section>
+
+            <!--选项卡-->
+            <section class="tab">
+                <header class="tab-header">
+                    <h2>最新连续剧</h2>
+                    <a href="javascript:">更多&gt;</a>
+                </header>
+                <nav class="tab-nav">
+                    <a href="javascript:">全部</a>
+                    <a href="javascript:">欧美</a>
+                    <a href="javascript:">日韩</a>
+                    <a href="javascript:">大陆</a>
+                    <a href="javascript:">港台</a>
+                    <a href="javascript:">泰国</a>
+                    <span class="active-border"></span>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-loading"></div>
+                    <ul class="tab-list">
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/a.jpg">
+                                <h3>乘风破浪的姐姐</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/b.jpg">
+                                <h3>以家人之名</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/c.jpg">
+                                <h3>饥饿站台</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/d.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/b.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/c.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="tab-loading"></div>
+                </div>
+            </section>
+
+            <!--选项卡-->
+            <section class="tab">
+                <header class="tab-header">
+                    <h2>最新综艺</h2>
+                    <a href="javascript:">更多&gt;</a>
+                </header>
+                <nav class="tab-nav">
+                    <a href="javascript:">全部</a>
+                    <a href="javascript:">欧美</a>
+                    <a href="javascript:">日韩</a>
+                    <a href="javascript:">大陆</a>
+                    <a href="javascript:">港台</a>
+                    <a href="javascript:">泰国</a>
+                    <span class="active-border"></span>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-loading"></div>
+                    <ul class="tab-list">
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/a.jpg">
+                                <h3>乘风破浪的姐姐</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/b.jpg">
+                                <h3>以家人之名</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/c.jpg">
+                                <h3>饥饿站台</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/d.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/b.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/c.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="tab-loading"></div>
+                </div>
+            </section>
+
+            <!--选项卡-->
+            <section class="tab">
+                <header class="tab-header">
+                    <h2>最新综艺</h2>
+                    <a href="javascript:">更多&gt;</a>
+                </header>
+                <nav class="tab-nav">
+                    <a href="javascript:">全部</a>
+                    <a href="javascript:">欧美</a>
+                    <a href="javascript:">日韩</a>
+                    <a href="javascript:">大陆</a>
+                    <a href="javascript:">港台</a>
+                    <a href="javascript:">泰国</a>
+                    <span class="active-border"></span>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-loading"></div>
+                    <ul class="tab-list">
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/a.jpg">
+                                <h3>乘风破浪的姐姐</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/b.jpg">
+                                <h3>以家人之名</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/c.jpg">
+                                <h3>饥饿站台</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/d.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/b.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="img/c.jpg">
+                                <h3>乡村爱情</h3>
+                            </a>
+                            <div class="des">
+                                <div class="des-left">
+                                    <span class="icon"></span>
+                                    <span class="num">8923</span>
+                                </div>
+                                <div class="des-right">
+                                    <span class="icon"></span>
+                                    <span class="num">123</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="tab-loading"></div>
+                </div>
+            </section>
+
+        </div>
+
+        <!--滚动条-->
+        <div id="scrollBar"></div>
+
+    </div>
+
+    <script src="js/transform.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/touchscroll.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>
